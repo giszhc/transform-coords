@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "outDir": "./dist",
+    "declaration": true,   // 生成 .d.ts 类型声明文件
+    "declarationDir": "./dist/types",
+    "sourceMap": true       // 生成源代码映射文件
+  },
+  "include": [
+    "src/**/*"
+  ]
+}
