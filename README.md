@@ -1,4 +1,4 @@
-# transform coords 坐标转换
+# coords transform 坐标转换
 
 一个简单的 JavaScript/TypeScript 库，用于在不同坐标系之间进行转换：BD-09（百度坐标系）、GCJ-02（火星坐标系）和 WGS-84 坐标系。该库提供了以下坐标系之间的转换函数：
 
@@ -14,7 +14,7 @@ https://github.com/wandergis/coordtransform
 你可以通过 npm 安装该库：
 
 ```bash
-npm install @giszhc/coords-transform
+pnpm install @giszhc/coords-transform
 ```
 
 ## 使用方法
@@ -37,7 +37,7 @@ npm install @giszhc/coords-transform
 #### 示例：
 
 ```
-import { bd09ToGcj02 } from 'coord-transform';
+import { bd09ToGcj02 } from "@giszhc/coords-transform";
 
 const [lng, lat] = bd09ToGcj02(116.404, 39.915);
 console.log(lng, lat);
@@ -62,7 +62,7 @@ console.log(lng, lat);
 #### 示例：
 
 ```
-import { gcj02ToBd09 } from 'coord-transform';
+import { gcj02ToBd09 } from "@giszhc/coords-transform";
 
 const [bdLng, bdLat] = gcj02ToBd09(116.404, 39.915);
 console.log(bdLng, bdLat);
@@ -87,7 +87,7 @@ console.log(bdLng, bdLat);
 #### 示例：
 
 ```
-import { wgs84ToGcj02 } from 'coord-transform';
+import { wgs84ToGcj02 } from "@giszhc/coords-transform";
 
 const [gcjLng, gcjLat] = wgs84ToGcj02(116.404, 39.915);
 console.log(gcjLng, gcjLat);
@@ -112,7 +112,7 @@ console.log(gcjLng, gcjLat);
 #### 示例：
 
 ```
-import { gcj02ToWgs84 } from 'coord-transform';
+import { gcj02ToWgs84 } from "@giszhc/coords-transform";
 
 const [wgsLng, wgsLat] = gcj02ToWgs84(116.404, 39.915);
 console.log(wgsLng, wgsLat);
