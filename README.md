@@ -14,7 +14,7 @@ https://github.com/wandergis/coordtransform
 你可以通过 npm 安装该库：
 
 ```bash
-npm install transform-coords
+npm install @giszhc/coords-transform
 ```
 
 ## 使用方法
